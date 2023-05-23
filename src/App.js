@@ -1,17 +1,17 @@
-import Header from './components/Header'
-import Banner from './components/Banner'
-import Content from './components/Content'
-import CTA from './components/CallToAction'
-import Footer from './components/Footer'
+import HomePage from './pages/Home/HomePage'
+import AboutUs from './pages/About/AboutUs'
+import Header from './components/Header';
+import { Route, Routes } from 'react-router-dom'
 function App() {
   return (
     <>
       <Header />
-      <Banner />
-      <Content />
-      <CTA />
-      <Footer/>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/about" element={<AboutUs />} />
+      </Routes>
     </>
+
   );
 }
 
