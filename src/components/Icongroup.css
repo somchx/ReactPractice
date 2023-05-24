@@ -25,6 +25,7 @@
 .Skill{
     width: 100%;
     text-align: center;
+    font-size: x-large;
     color: #111;
     padding-top: 2rem;
     justify-content: space-between; 
@@ -39,7 +40,7 @@
 }
 @media screen and (max-width: 480px) {
     .Header {
-        height: 500px;
+        height: 700px;
         overflow-x:hidden;
     }
     .Icon {
