@@ -1,7 +1,8 @@
 import React from 'react'
 import './CallToAction.css'
 import { FiCode } from 'react-icons/fi'
-
+import { BsGithub,BsFacebook } from "react-icons/bs";
+import { SiGmail } from "react-icons/si";
 function CallToAction() {
     return (
         <div className="cta-bg">
@@ -9,9 +10,14 @@ function CallToAction() {
             <div className="container">
                 <div className="cta-text">
                     <FiCode className="FiCode" />
-                    <h2>We're react dev team</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto esse voluptatem dolores atque asperiores maxime blanditiis, quos natus consequatur adipisci quaerat praesentium neque tempora rem deserunt iste, nam quisquam provident!</p>
-                    <a href="#" className="cta-btn">get to know us</a>
+                    <h2>Somchange's Portfolio</h2>
+                    <p>Thank you for visiting my personal portfolio website. Connect with me over socials.</p>
+                    <div className="contact">
+                        <a href="https://github.com/somchx"><BsGithub /></a>
+                        
+                        <a href="mailto: somchangechananya@gmail.com"><SiGmail /></a>
+                        <a href="https://www.facebook.com/ssomchange18/"><BsFacebook /></a>
+                    </div>
                 </div>
             </div>
         </div>

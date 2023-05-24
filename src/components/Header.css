@@ -2,8 +2,11 @@
     max-width: 960px;
     margin: 0 auto;
 }
+*{
+    font-family: 'Roboto', sans-serif;
+}
 .header {
-    background: #333;
+    background: #fff;
     height: 80px;
 }
 .header-con {
@@ -13,7 +16,7 @@
     align-items: center;
 }
 .logo-container a {
-    color: #fff;
+    color: #111;
     text-decoration: none; /* no underline */
     font-weight: bold;
     font-size: 2rem;
@@ -27,17 +30,21 @@
 }
 .menu li a {
     text-decoration: none;
-    color: #fff;
+    color: #111;
 }
 .mobile-menu { /*show when mobile size*/
     display: none;
+}
+html{
+
+  scroll-behavior: smooth;  
 }
 
 /* css for mobile size */
 @media screen and (max-width: 480px) {
     .mobile-menu {
         display: block;
-        color: #fff;
+        color: #111;
         font-size: 2rem;
     }
     .header {
@@ -50,13 +57,13 @@
         position: absolute;
         flex-direction: column;
         top: 64px;
-        background: #111;
+        background: #fff;
         left: -100%;
         opacity: 0;
         
     }
     .menu.active {
-        background: #111;
+        background: #fff;
         left: 0;
         opacity: 1;
         z-index: 1;

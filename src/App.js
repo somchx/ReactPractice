@@ -1,5 +1,5 @@
 import HomePage from './pages/Home/HomePage'
-import AboutUs from './pages/About/AboutUs'
+import NotFound from './pages/Home/NotFound'
 import Header from './components/Header';
 import { Route, Routes } from 'react-router-dom'
 function App() {
@@ -8,7 +8,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/about" element={<AboutUs />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </>
 

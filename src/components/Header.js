@@ -12,17 +12,23 @@ export default function Header() {
             <div className="container">
                 <div className="header-con">
                     <div className="logo-container">
-                        <a href="/">ReactTest <FiCode/></a>
+                        <a href="/">Somchx <FiCode/></a>
                     </div>
                     <ul className={click ? "menu active" : "menu"}>
                         <li className="menu-link" onClick={CloseMobileMenu}>
-                            <a href="/about">About</a>
+                            <a href="#About">About</a>
                         </li>
                         <li className="menu-link" onClick={CloseMobileMenu}>
-                            <a href="/">Contact</a>
+                            <a href="#Content">Project</a>
                         </li>
                         <li className="menu-link" onClick={CloseMobileMenu}>
-                            <a href="/">Blog</a>
+                            <a href="#Skill">Skill</a>
+                        </li>
+                        <li className="menu-link" onClick={CloseMobileMenu}>
+                            <a href="#Education">Education</a>
+                        </li>
+                        <li className="menu-link" onClick={CloseMobileMenu}>
+                            <a href="#Footer">Contact</a>
                         </li>
                     </ul>
                     <div className="mobile-menu" onClick={handleClick}>

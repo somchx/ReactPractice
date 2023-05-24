@@ -1,27 +1,40 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
 .container {
     max-width: 960px;
     margin: 0 auto;
 }
 
 .banner-bg {
-    height: 500px;
-    background: url("https://images.unsplash.com/photo-1547954575-855750c57bd3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2550&q=80") no-repeat;
+    height: 855px;
+    background: url("https://images.unsplash.com/photo-1684394944541-c57e2df37ebb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2232&q=80") no-repeat;
     background-size: cover;
     overflow: hidden; 
     /* no space between navbar&img */
 }
 
+.overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5) /* drop light of img = more black tone*/
+}
 .banner-con {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 500px;
+    height: 700px;
 }
 
 .banner-text {
     color: #fff;
     text-align: center;
+    font-size: x-small;
 }
+
 
 .banner-btn {
     background: #fff;
@@ -34,6 +47,7 @@
     margin-top: 1rem;
     border-radius: 5px;
     text-transform: uppercase;
+    font-size: medium;
 }
 
 .banner-btn:hover {
@@ -46,5 +60,8 @@
     .banner-text {
        font-size: xx-small;
        padding: 0 2rem; 
+    }
+    .banner-bg {
+        height: 700px;
     }
 }
