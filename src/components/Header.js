@@ -19,7 +19,7 @@ export default function Header() {
                             <a href="#About">About</a>
                         </li>
                         <li className="menu-link" onClick={CloseMobileMenu}>
-                            <a href="#Content">Project</a>
+                            <a href="#Content">Projects</a>
                         </li>
                         <li className="menu-link" onClick={CloseMobileMenu}>
                             <a href="#Skill">Skill</a>

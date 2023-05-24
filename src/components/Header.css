@@ -2,42 +2,67 @@
     max-width: 960px;
     margin: 0 auto;
 }
-*{
+
+* {
     font-family: 'Roboto', sans-serif;
 }
+
 .header {
     background: #fff;
     height: 80px;
+    /* position: fixed;
+    top: 0;
+    transition-timing-function: ease-in;
+    transition: 0.5s */
 }
+
 .header-con {
-    display: flex; /*show each element in header*/
-    justify-content: space-between;  /*set element space-between*/
+    display: flex;
+    /*show each element in header*/
+    justify-content: space-between;
+    /*set element space-between*/
     height: 80px;
     align-items: center;
 }
+
 .logo-container a {
     color: #111;
-    text-decoration: none; /* no underline */
+    text-decoration: none;
+    /* no underline */
     font-weight: bold;
     font-size: 2rem;
 }
+
 .menu {
-    display: flex; /*show each element in same rowr*/
-    list-style-type: none; /*no bullet */
+    display: flex;
+    /*show each element in same rowr*/
+    list-style-type: none;
+    /*no bullet */
 }
+
 .menu li {
-    padding-right: 2rem; /*distance*/
+    padding-right: 2rem;
+    /*distance*/
 }
+
 .menu li a {
     text-decoration: none;
     color: #111;
 }
-.mobile-menu { /*show when mobile size*/
+
+.menu-link :hover {
+    text-decoration: underline;
+    color: #124660;
+    font-weight: bold;
+}
+
+.mobile-menu {
+    /*show when mobile size*/
     display: none;
 }
-html{
 
-  scroll-behavior: smooth;  
+html {
+    scroll-behavior: smooth;
 }
 
 /* css for mobile size */
@@ -47,9 +72,11 @@ html{
         color: #111;
         font-size: 2rem;
     }
+
     .header {
         padding: 0 2rem;
     }
+
     .menu {
         width: 100%;
         height: auto;
@@ -60,20 +87,24 @@ html{
         background: #fff;
         left: -100%;
         opacity: 0;
-        
+
+
     }
+
     .menu.active {
         background: #fff;
         left: 0;
         opacity: 1;
-        z-index: 1;
+        z-index: 20;
         padding-left: 0;
         align-content: center;
         transition: 0.5s ease;
     }
+
     .menu li {
-        padding-right: 0 ;
+        padding-right: 0;
     }
+
     .menu-link {
         display: flex;
         align-items: center;
@@ -81,4 +112,5 @@ html{
         height: 10vw;
         padding: 10px 0;
     }
+
 }

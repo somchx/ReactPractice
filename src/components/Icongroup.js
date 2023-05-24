@@ -7,7 +7,9 @@ function Icongroup() {
         <div className="Header" id="Skill">
             <div className="container">
                 <div className="Skill">
-                    <p><BiCodeBlock/> Skills & Tools</p>
+                    <div className="topic">
+                        <h2><BiCodeBlock /> Some languages & tools that I have used and learned </h2>
+                    </div>
                     <div className="Icon" data-aos="zoom-in">
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" alt="angular" width="50" />
                     </div>
@@ -33,7 +35,7 @@ function Icongroup() {
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="python" width="50" />
                     </div>
                     <div className="Icon" data-aos="zoom-in">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C" width="45" height="50" />
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C" height="50" />
                     </div>
                     <div className="Icon" data-aos="zoom-in">
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" alt="csharp" width="50" />

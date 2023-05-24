@@ -12,7 +12,7 @@
     /* txt&img in the same row */
 }
 .Content{
-    background-color: #F7F7F7;
+    background-color: #f1eadc;
 
 }
 .Content-l{
@@ -46,12 +46,14 @@
   
     .Content-con {
         flex-direction: column;
+        margin: 0;
     }
-    .Content-con:nth-child(2) .Content-r {
-        order: 1;
-    }
+
     .Content-l{
         width: 100%;
+    }
+    .Content-r{
+        width: 85%;
     }
     .Content{
         padding: 1rem;
