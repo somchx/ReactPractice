@@ -8,7 +8,7 @@ function Icongroup() {
             <div className="container">
                 <div className="Skill">
                     <div className="topic">
-                        <h2><BiCodeBlock /> Some languages & tools that I have used and learned </h2>
+                        <h2><BiCodeBlock /> Skill & Tools</h2>
                     </div>
                     <div className="Icon" data-aos="zoom-in">
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" alt="angular" width="50" />
